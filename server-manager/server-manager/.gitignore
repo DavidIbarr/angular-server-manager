@@ -32,3 +32,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### DB ###
+/server-manager/server-manager/src/main/resources/application.yml
