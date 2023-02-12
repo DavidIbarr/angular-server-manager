@@ -9,7 +9,7 @@ import { Status } from '../models/enums/status.enum';
   providedIn: 'root'
 })
 export class ServerService {
-  private readonly apiUrl = 'string';
+  private readonly apiUrl = 'http://localhost:8080';
 
   constructor(private http: HttpClient) {}
 
